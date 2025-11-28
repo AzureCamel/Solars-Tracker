@@ -2,6 +2,10 @@
 
 A lightweight Foundry VTT module that monitors currency changes and logs a transaction receipt to the chat.
 
+Made with AI, I have no idea what I'm doing, so hopefully it works!
+
+**Manifest** https://github.com/AzureCamel/Solars-Tracker/releases/latest/download/module.json
+
 ## Features
 
 * **Automatic Logging:** Detects changes to actor data (default: `system.solars`) and calculates the difference.
@@ -25,6 +29,6 @@ Go to **Game Settings** > **Solars Tracker** to adjust:
 * **Enable Tracking:** Toggle the module on/off.
 * **Font Size:** Adjust text size for the log message.
 
-## Credits
+## License
 
-* **Author:** AzureCamel
+MIT License - Feel free to modify and distribute.
