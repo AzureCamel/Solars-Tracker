@@ -1,0 +1,61 @@
+.solars-tracker-message {
+  background: linear-gradient(
+    135deg,
+    rgba(44, 44, 44, 0.9) 0%,
+    rgba(26, 26, 26, 0.9) 100%
+  );
+  border: 1px solid #d4af37;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 2px 0;
+  font-size: 14px;
+  color: #ffffff;
+  display: inline-block;
+  min-width: 250px;
+}
+
+.solars-tracker-message h3 {
+  display: none;
+}
+
+.solars-details {
+  display: inline;
+  white-space: nowrap;
+}
+
+.solars-line {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+.solars-line .label {
+  display: none;
+}
+
+.solars-line .value {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.solars-tracker-message .value-change {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.solars-tracker-message .value-change.positive {
+  color: #4caf50 !important;
+}
+
+.solars-tracker-message .value-change.negative {
+  color: #f44336 !important;
+}
+
+/* Hide whisper header for solars tracker messages */
+.chat-message:has(.solars-tracker-message) .whisper-to {
+  display: none;
+}
